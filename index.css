@@ -176,3 +176,61 @@
     color: #007185;
     text-decoration: none;
   }
+  /* Shop-selection */
+  .shop-section{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: rgb(223, 205, 208);
+  }
+  .box{
+   height: 350px;
+   width: 23%;
+   background-color: white;
+   z-index: 999;
+   padding: 20px 0px 15px;
+   border-radius: 15px;
+
+  }
+  .box-img{
+   height: 300px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+   border-radius: 12px;
+  }
+  .box-content{
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+  .box-content p{
+   color: #007185;
+  
+  }
+  /* .swiper{
+   height: 400px;
+   width: 100%;
+   background-color: #222f3d;
+   margin-top:5px;
+  }
+  .swiper-msg{
+   height: 30px;
+   width: auto;
+   font-size: 20px;
+   color: white;
+   font-weight: 700;
+   
+  }
+  .swiper-box img{
+      display: block;
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+  } */
+  /* swiper-container .mySwiper1{
+   width: 100%;
+   height: inherit;
+   margin-bottom: 20px auto;
+  }
+       */
