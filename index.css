@@ -236,21 +236,42 @@
   }
        */
 .sign-in{
+   padding-top: 10px;
    width: 100%;
    height: 250px;
    margin-top: 25px;
-
 }
 .sign-in-border{
    height: 160px;
    width: 90%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    position: relative;
    top: 45px;
    left:5% ;
    border: 1px solid rgb(65, 62, 62);
    border-radius: 8px;
    
+}
+.sign-elements{
+   margin-top: 30px;
+   text-align: center;
+   padding-top: 20px;
+}
+.sign-h2{
+   margin-bottom: 8px;
+   font-size: 20px;
+}
+.sign-button{
+   margin-top: 2px;
+   margin-bottom: 7px;
+}
+.sign-in-border p{
+   font-size: 0.85rem;
+   margin-bottom: 7px;
+}
+.sign-in-border button{
+   height: 30px;
+   width: 220px;
+   border-radius: 15px;
+   background-color: #ffd814;
+
 }
